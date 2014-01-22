@@ -1,0 +1,95 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+header{
+  background: #2c3e50;
+  color: whiteSmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header > .row > .large-12 > h2 {
+  color: #ecf0f1;
+}
+
+.orbit-container .orbit-slides-container img{
+  width: 100%;
+}
+
+.orbit-slides-container{
+  height: 160px;
+}
+
+.orbit-timer, .orbit-bullets{
+  display: none;
+}
+
+.contain-to-grid{
+  background: none;
+}
+
+.barrasuperior ul{
+  list-style: none;
+}
+
+.barrasuperior > li{
+  background: #34495e;
+  list-style-type: none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.barrasuperior > li:hover{
+  background: #2c3e50;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.barrasuperior > li{
+  float: left;
+  width: 16.66666666666%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.barrasuperior > li{
+  text-align: center;
+  padding-right: 20px;
+}
+
+.barrasuperior a, .barrasuperior a:visited, .barrasuperior a:hover{
+  color: #FFF;
+}
+
+.pricing-table .cta-button{
+
+}
+
+button, .button, .button:hover, button:hover{
+  background: #34495e;
+  border: none;
+}
+
+* > h1, h2, h3, h4, h5, h6, p, a, a:visited, a:hover{
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #34495e;
+}
+
+a, a:visited, a:hover{
+  color: whiteSmoke;
+}
+h3 > a, h3 > a:visited, h3 > a:hover{
+  color: #34495e;
+}

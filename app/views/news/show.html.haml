@@ -1,0 +1,11 @@
+=render('layouts/header')
+
+.row
+  .large-12.columns{:style => 'text-align: center;'}
+    %h1= @news.title
+.row
+	.large-4.columns.large-centered
+		%p=@news.featured_image
+.row
+  .large-12.columns
+    %h6= @news.content
