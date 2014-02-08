@@ -25,14 +25,13 @@ Onedaytours::Application.routes.draw do
   #       get 'sold'
   #     end
   #   end
-  resources :tours
-  resources :news
+ 
   
   get 'about' => 'home#about'
   get 'terms' => 'home#terms'
-  get 'news_admin' => 'news#news_admin'
+  get 'services' => 'home#services'
   get 'contact' => 'home#contact'
-  get 'tours_admin' => 'tours#tours_admin'
+  
   # Example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
